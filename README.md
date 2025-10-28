@@ -54,13 +54,13 @@ sudo cp obs-rtspserver.so /usr/lib/x86_64-linux-gnu/obs-plugins/
 2. Go to **Tools** → **RtspServer**
 3. Configure settings (use port 8554 to avoid permission issues)
 4. Click **Start Output**
-5. Stream URL: `rtsp://localhost:8554/live`
+5. Stream URL: `rtsp://localhost:8554/live` or `rtsp://[ip]:8554/live`
 
 ## 📺 Tested Players
 
-- ✅ **MPV**: `mpv rtsp://localhost:8554/live` (Recommended)
-- ✅ **FFplay**: `ffplay rtsp://localhost:8554/live`
-- ⚠️ **VLC**: Has compatibility issues (not plugin related)
+- ✅ **MPV**: `mpv rtsp://[ip]:8554/live` (Recommended)
+- ✅ **FFplay**: `ffplay rtsp://[ip]:8554/live`
+- ✅ **VLC**
 
 ## 🙏 Credits
 
