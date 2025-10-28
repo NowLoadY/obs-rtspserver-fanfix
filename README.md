@@ -78,7 +78,6 @@ If you encounter problems:
 1. Check [MODIFICATIONS.md](MODIFICATIONS.md) for detailed changes
 2. Ensure you're using x264 encoder (not NVENC)
 3. Try port 8554 instead of 554
-4. Use MPV instead of VLC for playback
 
 ---
 
